@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(103, 101, 100);
+
+    
+}
+@font-face {
+    font-family: ravi;
+    src: url(./assets/font/BYekan.ttf)
+}
+h1{
+    font-size: 50px;
+    color: blanchedalmond;
+}
+* {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0; */
+    direction: rtl;
+}
+
+body p{
+    font-size: 20px;
+    color: rgb(60, 38, 6);
+}
+.picture  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+.paper ,.scissors ,.rock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+
+.picture img{
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 94);
+    color: bisque;
+  font-size: 18px;
+  font-weight: bold;
+}
+.score{
+border-radius: 20px;
+font-size: 40px;
+background-color: rgb(125, 123, 46);
+}
+.message{
+    border: 1px solid black;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(231, 221, 156);
+    width: 300px;
+    height: 300px;
+}
